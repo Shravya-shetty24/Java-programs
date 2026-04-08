@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Student Survey</title>
+    </head>
+    <body>
+        <h1>Student Feedback Surveey</h1>
+        <p>This survey helps us understand student's learning experiences and improve our educational platform. Please take a few minutes to answer the questions below.</p>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" placeholder="Enter your Name"/>
+            <label for="email">Email:</label>
+            <input type="email" placeholder="Enter your Email"/>
+            <label for="number">Age:</label>
+            <input type="number" placeholder="Age"/>
+            <p>Which option best describe your current role?</p>
+            <select id="role" name="role">
+                <option>---Current role----</option>
+                <option>Student</option>
+                <option>Teacher</option>
+                <option>Developer</option>
+                <option>Other</option>
+                
+            </select>
+            <p>Would you recomment this learning platform to a friend?</p>
+            <input type="radio" name="recommend" value="definitely"/>
+            <label>Definitely</label>
+            <input type="radio" name="recommend" value="may-be"/>
+            <label>May be</label>
+            <input type="radio" name="recommend" value="not-sure"/>
+            <label>Not Sure</label>
+            <p>What is your favourite feature of the platform?</p>
+            <input type="checkbox" name="feature" value="community"/>
+            <label>Community</label><br>
+            <input type="checkbox" name="feature" value="challenges"/>
+            <label>Challenges</label><br>
+            <input type="checkbox" name="feature" value="projects"/>
+            <label>Projects</label><br>
+            <input type="checkbox" name="feature" value="videos"/>
+            <label>Videos</label><br>
+            <p>Any Suggestions or comments?</p>
+            <textarea id="comments" name="comments" rows="4" cols="40" placeholder="comments----"></textarea>
+            <button type="submit">Submit</button>
+            
+        </form>
+        <footer>
+            <p>&copy;2026 Student Survey Form</p>
+        </footer>
+    </body>
+</html>
+
+</footer>
